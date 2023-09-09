@@ -10,6 +10,10 @@ margin: auto;
 overflow: hidden; 
 }
 
+ul{
+    padding: 0;
+    margin: 0;
+}
 header ul{
     margin: 0;
     padding: 0;
@@ -82,7 +86,10 @@ font-weight: bold;
 /*redo*/
 #showcase{
     min-height:400px;
-    background-image: url('../img/christmas-background-3871778_1280.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+		url("../img/showcase.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
     text-align: center;
     color: #ffffff;
 }
@@ -102,7 +109,7 @@ margin-bottom: 10px;
     background: #35424a;
 }
 
-#newsletter h1{
+#Newsletter h1{
     float: left;
 }
 
@@ -140,17 +147,22 @@ aside#sidebar{
     margin-top: 10px;
 }
 
-aside#sidebar .quote input,aside#sidebar .quote input,b 
+/* aside#sidebar .quote input,aside#sidebar .quote input,b  */
 
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+	width: 90%;
+	padding: 5%;
+}
 /* ARTICLE kolade */
-article#kolade{
+article#main-col{
     float: left;
     width: 65%;
 }
 
 /*services*/
 
-#kolade li{
+ul#services li{
     list-style: none;
     padding: 20px;
     border: #cccccc solid 1px;
@@ -172,10 +184,10 @@ footer{
     header nav,
     header nav li
     #newsletter h1,
-    #newsletter form{
+    #newsletter form,#boxes .box, article#main-col, aside#sidebar{
         float:none;
         text-align:center;
-        width: 10%;
+        width: 100%;
     }
     header{
         padding-bottom: 20px;
