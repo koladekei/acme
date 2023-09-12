@@ -186,7 +186,7 @@ footer{
     #newsletter h1,
     #newsletter form,#boxes .box, article#main-col, aside#sidebar{
         float:none;
-        text-align:center;
+        text-align:left;
         width: 100%;
     }
     header{
