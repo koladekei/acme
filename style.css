@@ -42,7 +42,7 @@ header{
     color: #ffffff;
     padding-top:30px;
     min-height: 70px;
-    border-bottom: #e8491d 3px solid;
+    border-bottom: #356793 3px solid;
 }
 
 header a{
@@ -74,7 +74,7 @@ margin-top: 10px;
 
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: #ffffff;
     font-weight:bold;
 }
 header a:hover{
